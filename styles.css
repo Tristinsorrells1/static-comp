@@ -1,11 +1,7 @@
 * {
     margin: 0;
-    color: white;
+    font-family: 'Slabo';
 }
-
-/* body {
-    min-height: 100%;
-} */
 
 main {
     min-height: 100%;
@@ -15,12 +11,14 @@ main {
 
 h2 {
     font-size: 2vw;
+    font-weight: normal;
 }
 
 /* -----------------------Header Content-------------------------------------- */
 header{
     height: 18vh;
-    background-color: rgb(81, 81, 104);
+    background-color: rgb(40, 40, 52);
+    color: white;
 }
 
 .nav-container {
@@ -35,7 +33,7 @@ header{
 }
 
 .login-container {
-    margin-left: 88vw;
+    margin-left: 90vw;
     margin-bottom: 10px;
 }
 
@@ -48,7 +46,7 @@ header{
 }
 
 .logo-container {
-    margin-left: 57vw;
+    margin-left: 60vw;
 }
 
 .logo-text {
@@ -73,20 +71,48 @@ header{
 }
 
 .grid {
-    background-color: rgb(213, 210, 210);
+    background-color: rgba(251, 238, 238, 0.823);
 }
 
 .city-text-container {
     border: 2px solid orange;
-    height: 30vh;
+    height: 35vh;
     width: 23vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    padding-left: 1vw;
+    border: 2px solid purple;
 }
 
 .city-info {
     display: flex;
     flex-direction: column;
 }
+
+.city-name {
+    font-size: 2vw;
+}
+
+.city-awards {
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.share-city,
+.icon {
+    font-size: 1.9vw;
+    padding: 2vw .25vw 0vw .25vw;
+}
+
+
+
+.city-link {
+    background-color: rgb(185, 185, 240);
+    height: 8vh;
+    width: 20vw;
+    padding-top: 2vw; 
+    margin: .5vw 0vw .5vw 0vw; 
+}
+
+
+
+
+
