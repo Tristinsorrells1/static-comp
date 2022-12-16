@@ -9,60 +9,65 @@
 <body>
     <header class="site-header">
         <div class="login-container">
-            <img src="./assets/add-user-xxl.png" alt="share symbol" style="width:40px;height:40px;" class="login-image">
+            <img src="./assets/add-user-xxl.png" alt="Login Button" style="width:40px;height:40px;" class="login-image button">
             <a class="login-text">Logout</a>
         </div>
         <nav class="nav-container">
             <div class="nav-icons">
-                <img src="./assets/email-xxl.png" alt="share symbol" style="width:30px;height:30px;">
+                <img src="./assets/email-xxl.png" alt="Share Button" style="width:30px;height:30px;" class="button">
                 <a>Shares</a>
             </div>
             <div class="nav-icons">
-                <img src="./assets/check-mark-8-xxl.png" alt="share symbol" style="width:30px;height:30px;">
+                <img src="./assets/check-mark-8-xxl.png" alt="Save Button" style="width:30px;height:30px;" class="button">
                 <a>Saved</a>
             </div>
             <div class="nav-icons">
-                <img src="./assets/facebook-like-xxl.png" alt="share symbol" style="width:30px;height:30px;">
+                <img src="./assets/facebook-like-xxl.png" alt="Like Button" style="width:30px;height:30px;" class="button">
                 <a>Likes</a>
             </div>
             <div class="logo-container">
                 <a class="logo-text">Visit a City</a>
-                <img src="./assets/plane.png" alt="Company Logo" style="width:50px;height:50px;" class="logo">
+                <img src="./assets/plane.png" alt="Company Logo" style="width:50px;height:50px;" class="logo button">
             </div>
         </nav>
     </header>
     <main>
         <h2>Top 8 Cities for New Graduates</h2>
-        <grid class="city-grid">
-            <div class="grid" id="1">
-                <img src="./assets/bean.jpeg" alt="share symbol" style="width:24.25vw;height:34vh;" class="city-image">
+        <grid class="city-grid-container">
+            <div class="grid">
+                <div class="image-container">
+                    <img src="./assets/bean.jpeg" alt="Picture of Chicago" style="width:24.25vw;height:34vh;" class="image">
+                    <div class="hover-box">
+                        <div class="hover-text">See More</div>
+                    </div>
+                </div>
                 <div class="city-text-container">
                     <div class="city-info">
                         <div class="city-name">Chicago</div>
                         <div>Population: 1,000,000</div>
                     </div>
                     <div class="city-link">www.TopReasonsToMoveToChicago.com</div>
-                    <div class="best-in">
+                    <div class="city-awards-container">
                         <div>BEST IN:</div>
                         <div class="city-awards">Night Life</div>
                     </div>
-                    <div class="shares">
-                        <img src="./assets/like.png" alt="Company Logo" style="width:20px;height:20px;" class="icon">
-                        <a class="share-city">Like</a>
-                        <img src="./assets/phone.png" alt="Company Logo" style="width:20px;height:20px;" class="icon">
-                        <a class="share-city">Share</a>
-                        <img src="./assets/save.png" alt="Company Logo" style="width:20px;height:20px;" class="icon">
-                        <a class="share-city">Save</a>
+                    <div class="like-share-save-container">
+                        <img src="./assets/like.png" alt="Like Button" style="width:20px;height:20px;" class="icon button">
+                        <a class="like-save-share">Like</a>
+                        <img src="./assets/phone.png" alt="Share Button" style="width:20px;height:20px;" class="icon button">
+                        <a class="like-save-share">Share</a>
+                        <img src="./assets/save.png" alt="Save Button" style="width:20px;height:20px;" class="icon button">
+                        <a class="like-save-share">Save</a>
                     </div>
                 </div>
             </div>
-            <div class="grid" id="2"></div>
-            <div class="grid" id="3"></div>
-            <div class="grid" id="4"></div>
-            <div class="grid" id="5"></div>
-            <div class="grid" id="6"></div>
-            <div class="grid" id="7"></div>
-            <div class="grid" id="8"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
         </grid>
     </main>
 </body>

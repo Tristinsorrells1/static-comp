@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Slabo';
+    cursor: default;
 }
 
 main {
@@ -57,10 +58,8 @@ header{
     margin-bottom: -12px;
 }
 
-
-
 /* ---------------------------------Grid Styling------------------------------ */
-.city-grid {
+.city-grid-container {
     display: grid;
     max-width: 100vw;
     height: 144vh;
@@ -96,13 +95,11 @@ header{
     font-size: 1.5vw;
 }
 
-.share-city,
+.like-save-share,
 .icon {
     font-size: 1.9vw;
     padding: 2vw .25vw 0vw .25vw;
 }
-
-
 
 .city-link {
     background-color: rgb(185, 185, 240);
@@ -112,7 +109,48 @@ header{
     margin: .5vw 0vw .5vw 0vw; 
 }
 
+/* ---------------------------------Hover Effects------------------------------ */
+.button:hover,
+.login-text:hover,
+.logo-text:hover,
+.logo:hover {
+    opacity: .5;
+}
 
+.city-name:hover,
+.city-link:hover {
+    text-decoration: underline;
+}
 
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 
+.hover-box {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 40%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.image-container:hover .image {
+    opacity: .3;
+}
+
+.image-container:hover .hover-box {
+    opacity: 1;
+}
+
+.hover-text {
+    background-color: rgb(40, 40, 52);;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
 
